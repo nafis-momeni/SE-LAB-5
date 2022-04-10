@@ -5,7 +5,7 @@
     #include <parser.tab.h>
     #include <stdio.h>
     FILE *output;
-    int line_count = 1;
+    int line_count = 0;
 %}
 
 
@@ -173,9 +173,6 @@ SINGLE_LINE_COMMENT "#"[^!].*
 }
 [a-zA-Z_][a-zA-Z0-9_]* {
     return(IDENTIFIER);
-}
-[0-9]([a-zA-Z_]|[0-9])* {
-    fprintf(output, "Error: Invalid numeric constant or identifier.\n");
 }
 
 {ANYTHING} {
