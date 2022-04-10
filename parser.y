@@ -7,10 +7,10 @@
 %token VOID INT CHAR BREAK
 %token MAIN RETURN
 
-%right XOR_ASSIGN OR_ASSIGN
+%right XOR_ASSIGN 
 %right AND_ASSIGN
-%right MUL_ASSIGN DIV_ASSIGN
-%right ADD_ASSIGN SUB_ASSIGN
+%right MUL_ASSIGN 
+%right ADD_ASSIGN 
 %right ASSIGN
 
 
