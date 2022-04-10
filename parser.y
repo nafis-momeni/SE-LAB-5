@@ -9,7 +9,7 @@
 
 %right XOR_ASSIGN OR_ASSIGN
 %right AND_ASSIGN
-%right MUL_ASSIGN DIV_ASSIGN
+%right MUL_ASSIGN
 %right ADD_ASSIGN SUB_ASSIGN
 %right ASSIGN
 
