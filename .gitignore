@@ -12,5 +12,7 @@ _deps
 
 *.pdf
 bin.*
+a.out
+lex.yy
 
 
